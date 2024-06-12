@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Menubar from './components/Menubar';
+import Body from './components/Body';
+import Thirdpage from './components/ThirdPage';
+import FourthPage from './components/FourthPage';
+import FifthPage from './components/FifthPage';
+import PageLast from './components/PageLast';
+import Connect from './components/Connect';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Menubar/>
+     <Body/>
+     <Thirdpage/>
+     <FourthPage/>
+     <FifthPage/>
+     <PageLast/>
+     <Connect/>
+     <Footer/>
     </div>
   );
 }
